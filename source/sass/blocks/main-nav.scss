@@ -1,0 +1,31 @@
+.main-nav {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(min-content, max-content));
+  justify-content: center;
+  column-gap: 135px;
+  border-bottom: 1px solid rgba($simple-white, 0.2);
+
+  @media (max-width: $desktop-width - 1) {
+    display: none;
+  }
+}
+
+.main-nav a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: $simple-white;
+  opacity: 0.7;
+
+  display: inline-block;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+
+  &:hover {
+    text-decoration: underline;
+
+    &:active {
+      opacity: 0.4;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Велосипеды</title>
+  <link rel="preload" href="fonts/open-sans-v20-latin_cyrillic-300.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/open-sans-v20-latin_cyrillic-600.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/open-sans-v20-latin_cyrillic-700.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/open-sans-v20-latin_cyrillic-regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="page-body">
+  <div class="page-body__header-wrap">
+    <header class="page-body__page-header page-header">
+      <a class="page-header__logo-wrap">
+        <svg class="page-header__logo" width="68" height="21" aria-hidden="true">
+          <use xlink:href="img/sprite.svg#logo"></use>
+        </svg>
+      </a>
+      <nav class="page-header__main-nav main-nav">
+        <a class="link" href="#">О нас</a>
+        <a class="link" href="#">Виды велосипедов</a>
+        <a class="link" href="#">Видео про велосипеды</a>
+        <a class="link" href="#">Контакты</a>
+      </nav>
+      <button class="page-header__menu-button" type="button">
+        <svg width="24" height="14" aria-hidden="true">
+          <use href="#hamburger"></use>
+        </svg>
+      </button>
+    </header>
+    <section class="page-body__promo-block promo-block">
+      <div class="promo-block__lead-block">
+        <h1>
+          Мы продаем
+          велосипеды
+        </h1>
+        <p>
+          Наш магазин отбирает только самые
+          лучшие велосипеды для продажи
+        </p>
+      </div>
+      <div class="promo-block__form-wrap">
+        <p>
+          Заполните поля ниже и мы подберем
+          велосипед Вашей мечты
+        </p>
+        <form class="promo-block__form form">
+          <div class="form__inputs-wrap">
+            <div class="form__name-field-wrap">
+              <input type="text" name="name-field" placeholder="Введите Ваше Имя">
+            </div>
+            <div class="form__email-field-wrap">
+              <input type="tel" name="tel-field" placeholder="Введите Ваш номер телефона">
+            </div>
+          </div>
+          <button class="form__submit-button" type="submit">Подобрать велосипед мечты</button>
+        </form>
+      </div>
+    </section>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

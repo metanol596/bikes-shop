@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+
+  background-color: $simple-white;
+}
+
+a {
+  text-decoration: none;
+}

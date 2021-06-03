@@ -1,0 +1,47 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+  padding: 21px calc(50% - 437px) 0;
+
+  @media (max-width: $desktop-width - 1) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px calc(50% - 362px) 0;
+    position: relative;
+  }
+
+  @media (max-width: $tablet-width - 1) {
+    padding: 25px calc(50% - 144px) 0;
+  }
+}
+
+.page-header__logo-wrap {
+  order: 2;
+
+  @media (max-width: $desktop-width - 1) {
+    order: 0;
+  }
+}
+
+.page-header__main-nav {
+  margin-bottom: 265px;
+}
+
+.page-header__menu-button {
+  display: none;
+
+  @media (max-width: $desktop-width - 1) {
+    background-color: $cyan-1;
+
+    cursor: pointer;
+
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+  }
+}

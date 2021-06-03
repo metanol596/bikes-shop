@@ -1,0 +1,66 @@
+{
+  "name": "bicycles",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metanol596/bikes-shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metanol596/bikes-shop/issues"
+  },
+  "homepage": "https://github.com/metanol596/bikes-shop#readme",
+  "description": "Акселератор - Первый проект Велосипеды",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@htmlacademy/editorconfig-cli": "1.0.0",
+    "autoprefixer": "10.2.6",
+    "browser-sync": "2.26.14",
+    "del": "^6.0.0",
+    "eslint": "7.27.0",
+    "eslint-config-htmlacademy": "4.0.1",
+    "gulp": "4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "4.1.0",
+    "gulp-sourcemaps": "3.0.0",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.3.0",
+    "postcss-csso": "^5.0.1",
+    "stylelint": "13.13.1",
+    "stylelint-config-htmlacademy": "0.1.6"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
+    "build": "gulp build",
+    "start": "gulp",
+    "test": "npm run editorconfig && npm run stylelint && eslint source/js/"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "editorconfig-cli": [
+    "*.json",
+    "*.js",
+    "source/*.html",
+    "source/js/**/*.js",
+    "source/img/**/*.svg",
+    "source/sass/**/*.{sass,scss}"
+  ],
+  "engines": {
+    "node": "14.15.0"
+  }
+}
