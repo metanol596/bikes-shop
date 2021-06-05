@@ -1,0 +1,15 @@
+.page-main__features {
+  margin-bottom: 148px;
+
+  @media (max-width: $desktop-width - 1) {
+    margin-bottom: 70px;
+  }
+}
+
+.page-main__video-entertainment-block {
+  margin-bottom: 198px;
+
+  @media (max-width: $desktop-width - 1) {
+    margin-bottom: 108px;
+  }
+}

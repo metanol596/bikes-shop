@@ -2,19 +2,24 @@
 
 @import "variables.scss";
 
-// Global
+// Globals
 
 @import "global/fonts.scss";
 @import "global/reboot.scss";
 
-// Vendor
+// Vendors
 
 @import "vendor/normalize.scss";
 
-// Block
+// Blocks
 
 @import "blocks/page-body.scss";
 @import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
 @import "blocks/promo-block.scss";
 @import "blocks/form.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/features.scss";
+@import "blocks/page-main.scss";
+@import "blocks/bicycles.scss";
+@import "blocks/video-entertainment-block.scss";

@@ -1,0 +1,123 @@
+.video-entertainment-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+
+  background-color: $black-5;
+
+  @media (max-width: $desktop-width - 1) {
+    padding-top: 70px;
+  }
+
+  @media (max-width: $tablet-width - 1) {
+    padding-top: 84px;
+  }
+}
+
+.video-entertainment-block__lead-block h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  color: $simple-white;
+
+  margin: 0 0 20px 0;
+  text-align: center;
+
+  @media (max-width: $desktop-width - 1) {
+    font-size: 24px;
+  }
+}
+
+.video-entertainment-block__lead-block p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: $simple-white;
+  opacity: 0.7;
+
+  text-align: center;
+  width: 340px;
+  margin: 0 auto;
+
+  @media (max-width: $desktop-width - 1) {
+    font-size: 16px;
+    line-height: 28px;
+
+    width: 429px;
+  }
+
+  @media (max-width: $tablet-width - 1) {
+    width: 289px;
+  }
+}
+
+.video-entertainment-block__video {
+  position: relative;
+  top: 56px;
+
+  @media (max-width: $desktop-width - 1) {
+    top: 40px;
+  }
+
+  @media (max-width: $tablet-width - 1) {
+    top: 50px;
+  }
+}
+
+.video-entertainment-block__video img {
+  object-fit: cover;
+  width: 929px;
+  height: 522px;
+
+  @media (max-width: $desktop-width - 1) {
+    width: 503px;
+    height: 282px;
+  }
+
+  @media (max-width: $tablet-width - 1) {
+    width: 288px;
+    height: 162px;
+  }
+}
+
+.video-entertainment-block__video button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: transparent;
+  width: 65px;
+  height: 65px;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+
+    &:active {
+      opacity: 0.8;
+    }
+  }
+
+  @media (min-width: $tablet-width) and (max-width: $desktop-width - 1) {
+    width: 91px;
+    height: 91px;
+    top: 35%;
+    left: 42%;
+  }
+
+  @media (max-width: $tablet-width - 1) {
+    left: 37%;
+    top: 30%;
+  }
+}
+
+.video-entertainment-block__video svg {
+  @media (min-width: $tablet-width) and (max-width: $desktop-width - 1) {
+    width: 91px;
+    height: 91px;
+  }
+}

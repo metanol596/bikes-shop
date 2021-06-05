@@ -1,0 +1,130 @@
+.page-footer {
+  padding-bottom: 98px;
+
+  @media (max-width: $desktop-width - 1) {
+    padding-bottom: 53px;
+  }
+
+  @media (max-width: $tablet-width - 1) {
+    padding-bottom: 51px;
+  }
+}
+
+.page-footer__address-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 calc(50% - 438px);
+  margin-bottom: 42px;
+
+  @media (max-width: $desktop-width - 1) {
+    padding: 0 calc(50% - 349px);
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: $tablet-width - 1) {
+    padding: 0 calc(50% - 144px);
+    margin-bottom: 25px;
+  }
+}
+
+.page-footer__address-block h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  color: $black-4;
+
+  margin: 0 0 30px 0;
+
+  @media (max-width: $desktop-width - 1) {
+    font-size: 24px;
+
+    margin: 0 0 20px 0;
+  }
+
+  @media (max-width: $tablet-width - 1) {
+    font-size: 18px;
+  }
+}
+
+.page-footer__address-block p {
+  font-size: 17px;
+  line-height: 31px;
+  color: rgba($black-2, 0.7);
+
+  text-align: center;
+
+  margin: 0;
+  width: 555px;
+
+  @media (max-width: $desktop-width - 1) {
+    width: 629px;
+  }
+
+  @media (max-width: $tablet-width - 1) {
+    width: 270px;
+  }
+}
+
+.page-footer__map-block {
+  width: 957px;
+  height: 530px;
+  margin: 0 auto 38px;
+
+  @media (max-width: $desktop-width - 1) {
+    width: 698px;
+    height: 545px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: $tablet-width - 1) {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 31px;
+  }
+}
+
+.page-footer__contacts-block {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 90px;
+  justify-content: center;
+
+  @media (max-width: $tablet-width - 1) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, max-content);
+    row-gap: 22px;
+  }
+}
+
+
+.page-footer__email-wrap,
+.page-footer__tel-wrap {
+  text-align: center;
+
+  margin-bottom: 5px;
+}
+
+.page-footer__email-wrap span,
+.page-footer__tel-wrap span {
+  display: inline-flex;
+  margin-right: 15px;
+}
+
+.page-footer__tel-wrap svg {
+  fill: none;
+}
+
+.page-footer__contacts-block a {
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba($black-2, 0.5);
+
+  &:hover {
+    text-decoration: underline;
+
+    &:active {
+      opacity: 0.8;
+    }
+  }
+}

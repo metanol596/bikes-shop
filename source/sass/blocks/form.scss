@@ -12,6 +12,18 @@
   border: 1px solid $grey-1;
   border-radius: 6px;
 
+  &:hover {
+    outline: 1px solid $silver;
+    outline-offset: 0px;
+    outline-style: auto;
+  }
+
+  &:focus {
+    outline: 1px solid $black-2;
+    outline-offset: 0px;
+    outline-style: auto;
+  }
+
   @media (max-width: $desktop-width - 1) {
     padding: 12px 21px;
     width: 321px;
@@ -52,7 +64,7 @@
   &:hover {
     opacity: 0.9;
 
-    &:hover {
+    &:active {
       opacity: 0.8;
     }
   }
