@@ -20,3 +20,7 @@ trim_trailing_whitespace = true
 
 [*.md]
 trim_trailing_whitespace = false
+
+[source/js/vendor/**]
+indent_style = unset
+indent_size = unset
