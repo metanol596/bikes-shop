@@ -6,11 +6,11 @@ const logo = document.querySelector('.page-header__logo-wrap--no-js');
 
 openMenuButton.addEventListener('click', () => {
   menu.classList.add('active');
-})
+});
 
 closeMenuButton.addEventListener('click', () => {
   menu.classList.remove('active');
-})
+});
 
 const removeNojsClass = () => {
   openMenuButton.classList.remove('page-header__open-menu-button--no-js');
@@ -19,6 +19,6 @@ const removeNojsClass = () => {
   logo.classList.remove('page-header__logo-wrap--no-js');
   menu.classList.remove('page-header__main-nav--no-js');
   menu.classList.remove('main-nav--no-js');
-}
+};
 
 removeNojsClass();

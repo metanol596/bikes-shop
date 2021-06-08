@@ -10,11 +10,13 @@ body {
 }
 
 body {
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-weight: normal;
   font-style: normal;
 
   background-color: $simple-white;
+
+  margin: 0;
 }
 
 a {

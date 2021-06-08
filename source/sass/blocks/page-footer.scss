@@ -128,3 +128,28 @@
     }
   }
 }
+
+.page-footer__map-block {
+  background-image: url("../img/map-desk.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/map-desk@2x.png");
+  }
+
+  @media (max-width: $desktop-width - 1) {
+    background-image: url("../img/map-tablet.png");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/map-tablet@2x.png");
+    }
+  }
+  @media (max-width: $tablet-width - 1) {
+    background-image: url("../img/map-mobile.png");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/map-mobile@2x.png");
+    }
+  }
+}

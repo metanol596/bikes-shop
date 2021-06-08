@@ -8,6 +8,6 @@ menuAnchors.forEach((anchor) => {
     document.querySelector(blockId).scrollIntoView({
       behavior: 'smooth',
       block: 'start'
-    })
-  })
-})
+    });
+  });
+});

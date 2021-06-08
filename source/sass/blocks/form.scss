@@ -14,13 +14,13 @@
 
   &:hover {
     outline: 1px solid $silver;
-    outline-offset: 0px;
+    outline-offset: 0;
     outline-style: auto;
   }
 
   &:focus {
     outline: 1px solid $black-2;
-    outline-offset: 0px;
+    outline-offset: 0;
     outline-style: auto;
   }
 

@@ -9,6 +9,7 @@
     position: relative;
     padding: 25px calc(50% - 362px) 0;
   }
+
   @media (max-width: $tablet-width - 1) {
     padding: 25px calc(50% - 144px) 0;
   }
@@ -41,11 +42,11 @@
 }
 
 .page-header__main-nav {
-    margin-bottom: 265px;
+  margin-bottom: 265px;
 
-    @media (max-width: $desktop-width - 1) {
-      margin-bottom: 0;
-    }
+  @media (max-width: $desktop-width - 1) {
+    margin-bottom: 0;
+  }
 }
 
 .page-header__main-nav--no-js {
