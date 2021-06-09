@@ -1,5 +1,13 @@
 .form__inputs-wrap {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+
+  @media (max-width: $desktop-width - 1) {
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: $tablet-width - 1) {
+    margin-bottom: 18px;
+  }
 }
 
 .form input {
@@ -43,7 +51,11 @@
 }
 
 .form__name-field-wrap {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+
+  @media (max-width: $desktop-width - 1) {
+    margin-bottom: 16px;
+  }
 }
 
 .form__submit-button {
@@ -57,7 +69,7 @@
   cursor: pointer;
 
   width: 325px;
-  padding: 12px 19px;
+  padding: 15px 19px;
   border: 0;
   border-radius: 6px;
 
@@ -71,9 +83,11 @@
 
   @media (max-width: $desktop-width - 1) {
     width: 321px;
+    padding-bottom: 17px;
   }
 
   @media (max-width: $tablet-width - 1) {
     width: 286px;
+    padding-bottom: 19px;
   }
 }

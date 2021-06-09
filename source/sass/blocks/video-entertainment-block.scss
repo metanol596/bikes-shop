@@ -2,12 +2,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 150px;
+  padding-top: 122px;
+
+  @media (min-width: 1440px) {
+    height: 707px;
+  }
 
   background-color: $black-5;
 
   @media (max-width: $desktop-width - 1) {
     padding-top: 70px;
+  }
+
+  @media (min-width: $tablet-width) and (max-width: $desktop-width - 1) {
+    height: 413px;
   }
 
   @media (max-width: $tablet-width - 1) {
@@ -83,8 +91,8 @@
 
 .video-entertainment-block__video button {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 43%;
+  left: 433px;
   background-color: transparent;
   width: 65px;
   height: 65px;
@@ -105,12 +113,12 @@
   @media (min-width: $tablet-width) and (max-width: $desktop-width - 1) {
     width: 91px;
     height: 91px;
-    top: 35%;
-    left: 42%;
+    top: 34%;
+    left: 41%;
   }
 
   @media (max-width: $tablet-width - 1) {
-    left: 37%;
+    left: 39%;
     top: 30%;
   }
 }

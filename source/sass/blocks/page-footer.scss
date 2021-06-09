@@ -1,12 +1,8 @@
 .page-footer {
-  padding-bottom: 98px;
+  padding-bottom: 87px;
 
   @media (max-width: $desktop-width - 1) {
-    padding-bottom: 53px;
-  }
-
-  @media (max-width: $tablet-width - 1) {
-    padding-bottom: 51px;
+    padding-bottom: 45px;
   }
 }
 
@@ -24,7 +20,7 @@
 
   @media (max-width: $tablet-width - 1) {
     padding: 0 calc(50% - 144px);
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 }
 
@@ -93,7 +89,7 @@
   @media (max-width: $tablet-width - 1) {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, max-content);
-    row-gap: 22px;
+    row-gap: 10px;
   }
 }
 
