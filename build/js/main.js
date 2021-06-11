@@ -12,11 +12,14 @@ const closeMenuButton = document.querySelector('.main-nav__close-menu-button');
 const menu = document.querySelector('.main-nav');
 const headerBlock = document.querySelector('.page-header--no-js');
 const logo = document.querySelector('.page-header__logo-wrap--no-js');
+const body = document.querySelector('body');
 openMenuButton.addEventListener('click', () => {
   menu.classList.add('active');
+  body.classList.add('page-body--no-scroll');
 });
 closeMenuButton.addEventListener('click', () => {
   menu.classList.remove('active');
+  body.classList.remove('page-body--no-scroll');
 });
 
 const removeNojsClass = () => {
